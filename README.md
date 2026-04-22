@@ -147,7 +147,7 @@ source .venv/bin/activate
 
 ### Declare dependencies
 
-Create a `requirements.txt` file:
+Create a [requirements.txt](requirements.txt) file:
 
 ```text
 fastmcp>=3.2.4
@@ -168,7 +168,7 @@ uv pip install -r requirements.txt
 
 ### Write the minimal MCP server
 
-Create `stocks_server_min.py`:
+Create a [stocks_server_min.py](stocks_server_min.py) Python file:
 
 ```python
 from fastmcp import FastMCP
@@ -202,7 +202,7 @@ The server runs silently on stdio, waiting for an MCP client. Press `Ctrl+C` to 
 
 ## Part 4. Tools, resources, and prompt templates
 
-Now create the full server. Create `stocks_server.py`:
+Now create the full server. Create a [stocks_server.py](stocks_server.py) file:
 
 ```python
 """Stock market MCP server built with FastMCP and yfinance."""
