@@ -38,7 +38,7 @@ You will gain:
 2. Google Antigravity installed from <https://antigravity.google/download>.
 3. Python 3.10 or higher, accessible from your terminal:
    ```sh
-   python --version
+   $ python --version
    ```
 4. A package manager. This workshop uses `pip`. If you prefer [`uv`](https://docs.astral.sh/uv/), the equivalent commands are shown inline.
 5. A personal Google account for signing in to Antigravity.
