@@ -362,6 +362,31 @@ The agent will:
 
 **Review the diff before accepting.** The agent is fast, but you are still the author of record.
 
+<details>
+<summary>Show solution❗</summary>
+
+```python
+@mcp.tool
+def get_dividends(ticker: str) -> list[dict]:
+    """Return the last 12 months of dividend payments for the ticker."""
+    divs = yf.Ticker(ticker).dividends
+    if divs.empty:
+        return []
+
+    start_date = pd.Timestamp.now(tz=divs.index.tz) - pd.DateOffset(months=12)
+    recent_divs = divs[divs.index >= start_date]
+
+    return [
+        {
+            "date": date.strftime("%Y-%m-%d"),
+            "amount": float(amount),
+        }
+        for date, amount in recent_divs.items()
+    ]
+```
+
+</details>
+
 ### Exercise: improve a docstring
 
 Ask the agent:
