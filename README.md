@@ -44,6 +44,13 @@ You will gain:
 5. A personal Google account for signing in to [Google Antigravity](https://antigravity.google/).
 
 ## Part 1. What is MCP?
+An AI agent is a system that uses a **model** to reason about and select the appropriate **tools** to achieve a specific goal.
+
+```mermaid
+flowchart LR
+    Agent[Agent] --> Tools[Tools] 
+    Agent[Agent] --> Model[Model]
+```
 
 The **Model Context Protocol (MCP)** is an open standard for connecting AI agents to tools and data. An agent speaks to any MCP-compatible server through the same protocol, the same way a browser speaks HTTP to any web server.
 
@@ -91,7 +98,10 @@ Antigravity is an agent-first IDE. The parts you will use today:
 - **Agent Manager** — orchestrates longer, multi-step agent tasks.
 - **Built-in terminal** — the agent can execute shell commands here (with your approval).
 
-*(screenshot: Antigravity Agent Manager and editor side by side)*
+![0003.png](img/0003.png "Antigravity Editor and Git Bash Terminal")
+![0004.png](img/0004.png "Antigravity Agent Manager")
+
+**Note:** [Git Bash for Windows](https://git-scm.com/install/windows).
 
 ### Open the workshop folder
 
