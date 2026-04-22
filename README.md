@@ -374,6 +374,20 @@ A clearer docstring improves tool discovery because MCP clients send docstrings 
 
 ### Option A. Local stdio with MCP Inspector
 
+Download the Windows installer (e.g., `node-v24.15.0-x64.msi` file) from [nodejs.org](https://nodejs.org/en) (LTS, currently Node v24.15.0).
+
+Run it with the default options — it adds node, npm, and npx to your `PATH`.
+
+**Close and reopen Google Antigravity** (PATH changes are not picked up in existing shells).
+
+Verify:
+
+```sh
+node --version
+npm --version
+npx --version
+```
+
 The fastest way to inspect the server is with the [MCP Inspector](https://github.com/modelcontextprotocol/inspector) shipped with FastMCP:
 
 ```sh
