@@ -377,7 +377,7 @@ A clearer docstring improves tool discovery because MCP clients send docstrings 
 The fastest way to inspect the server is with the [MCP Inspector](https://github.com/modelcontextprotocol/inspector) shipped with FastMCP:
 
 ```sh
-fastmcp dev stocks_server.py
+fastmcp dev inspector stocks_server.py
 ```
 
 This command:
