@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "stocks": {
+      "command": "python",
+      "args": ["C:/Users/Lenovo/Documents/workshop/stocks_server.py"],
+      "env": {
+        "MCP_TRANSPORT": "stdio"
+      }
+    }
+  }
+}
