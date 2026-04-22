@@ -452,8 +452,8 @@ Antigravity reads an `mcp.json`-style configuration to register MCP servers. Cre
 {
   "mcpServers": {
     "stocks": {
-      "command": "python",
-      "args": ["C:/Users/Lenovo/Documents/workshop/stocks_server.py"],
+      "command": "C:/Users/<you>/Documents/agentic-ai-in-practice-dawts-2026/.venv/Scripts/python.exe",
+      "args": ["C:/Users/<you>/Documents/agentic-ai-in-practice-dawts-2026/stocks_server.py"],
       "env": {
         "MCP_TRANSPORT": "stdio"
       }
@@ -465,6 +465,12 @@ Antigravity reads an `mcp.json`-style configuration to register MCP servers. Cre
 Adjust the path in `args` to match your own workshop folder. In Antigravity, open the MCP settings (`Settings` > `MCP Servers` > `Add`) and paste the `stocks` block.
 
 *(screenshot: Antigravity MCP settings with the stocks server registered)*
+
+In case, you will face the following error:
+```sh
+Error: Traceback (most recent call last): File "C:\Users\<you>\Documents\agentic-ai-in-practice-dawts-2026\stocks_server.py", line 11, in <module> import yfinance as yf ModuleNotFoundError: No module named 'yfinance' : calling "initialize": EOF.
+```
+That means Google Antigravity is starting the server with global Python, not the interpreter from your project virtual environment. Dependencies such as `fastmcp` and `yfinance` may already be installed in the venv, but they are not visible to the Python on your `PATH`. Point the MCP server command at your venv's executable (on Windows, typically `…/.venv/Scripts/python.exe`) instead of global Python, or otherwise ensure that the same dependencies are installed for global Python too.
 
 Then, in the Editor Agent chat, ask a natural-language question:
 
