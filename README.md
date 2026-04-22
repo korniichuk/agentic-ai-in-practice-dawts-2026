@@ -133,6 +133,12 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .venv\Scripts\Activate.ps1
 ```
 
+On **Windows (Git Bash for Windows)**:
+
+```sh
+source .venv/Scripts/activate
+```
+
 On **macOS / Linux**:
 
 ```sh
