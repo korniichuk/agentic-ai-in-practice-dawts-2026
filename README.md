@@ -75,6 +75,11 @@ flowchart LR
 
 Download and install Google Antigravity from <https://antigravity.google/download>. Launch the app and sign in with your personal Google account.
 
+For Windows operating system, you can check your system type (`x64` vs `ARM64`) in the `Settings > System > About`:
+
+![0001.png](img/0001.png "Settings > System > About > System type")
+
+
 *(screenshot: Antigravity welcome screen)*
 
 ### Quick tour
