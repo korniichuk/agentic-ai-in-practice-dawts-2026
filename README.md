@@ -446,7 +446,21 @@ You should see the same tools, resources, and prompt as in Option A.
 
 ### Option C. Connect the server to Google Antigravity
 
-Antigravity reads an `mcp.json`-style configuration to register MCP servers. Create `mcp.example.json` in the workshop folder:
+Antigravity reads `C:/Users/<you>/.gemini/antigravity/mcp_config.json` configuration to register MCP servers.
+
+In Google Antigravity, select `Additional Options` (`…`) in the top right corner. Select `MCP Servers`:
+
+![0007.png](img/0007.png "Additional Options > MCP Servers")
+
+Select `Manage MCP Servers`:
+
+![0008.png](img/0008.png "Manage MCP Servers")
+
+Select `View raw config 🗋` in the `Manage MCPs`:
+
+![0009.png](img/0009.png "View raw config 🗋")
+
+Copy and paste the following `stocks` block.
 
 ```json
 {
@@ -462,9 +476,13 @@ Antigravity reads an `mcp.json`-style configuration to register MCP servers. Cre
 }
 ```
 
-Adjust the path in `args` to match your own workshop folder. In Antigravity, open the MCP settings (`Settings` > `MCP Servers` > `Add`) and paste the `stocks` block.
+**Adjust the path** in both `command` and `args` to match your own workshop folder.
 
-*(screenshot: Antigravity MCP settings with the stocks server registered)*
+Click the `Refresh 🔄` button in the `Manage MCPs`:
+
+![0010.png](img/0010.png "Refresh 🔄")
+
+![0011.png](img/0011.png "Antigravity MCP settings with the stocks server registered")
 
 In case, you will face the following error:
 ```sh
