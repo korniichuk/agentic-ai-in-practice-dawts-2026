@@ -105,7 +105,9 @@ Antigravity is an agent-first IDE. The parts you will use today:
 
 ### Open the workshop folder
 
-Create a new folder for the workshop (for example `C:\Users\<you>\Documents\workshop`) and open it in Antigravity via `File` > `Open Folder`.
+Create a new folder for the workshop (for example `C:\Users\<you>\Documents\workshop`) and open it in Antigravity via `File > Open Folder…`.
+
+![0005.png](img/0005.png "File > Open Folder…")
 
 ## Part 3. Project scaffold and first FastMCP server
 
