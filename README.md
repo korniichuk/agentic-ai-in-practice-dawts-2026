@@ -1,6 +1,6 @@
 # Agentic AI in Practice: Google Antigravity, FastMCP, and Python
 
-A 90-minute hands-on workshop. You will build a fully working **stock-market MCP server** from scratch using [FastMCP](https://gofastmcp.com/) and Python, and run it inside [Google Antigravity](https://antigravity.google/), an agent-first IDE. The meta angle is intentional: **you use an agentic tool to build agentic tools**.
+A 120-minute hands-on workshop. You will build a fully working **stock-market MCP server** from scratch using [FastMCP](https://gofastmcp.com/) and Python, and run it inside [Google Antigravity](https://antigravity.google/), an agent-first IDE. The meta angle is intentional: **you use an agentic tool to build agentic tools**.
 
 By the end of the workshop you will have:
 
