@@ -395,6 +395,20 @@ Ask the agent:
 
 A clearer docstring improves tool discovery because MCP clients send docstrings to the underlying LLM as part of the tool schema.
 
+<details>
+<summary>Show solution❗</summary>
+
+```python
+"""Return daily OHLCV history for the last N days (default 7).
+  
+Use this tool when you need to analyze price trends, volatility, or historical 
+performance over a period of time. Do NOT use this tool if you only need the 
+current or latest price; use `get_stock_price` instead.
+"""
+```
+
+</details>
+
 ## Part 6. Deploy and test the MCP server
 
 ### Option A. Local stdio with MCP Inspector
