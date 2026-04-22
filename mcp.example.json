@@ -1,8 +1,10 @@
 {
   "mcpServers": {
     "stocks": {
-      "command": "python",
-      "args": ["C:/Users/Lenovo/Documents/workshop/stocks_server.py"],
+      "command": "C:/Users/<you>/Documents/agentic-ai-in-practice-dawts-2026/.venv/Scripts/python.exe",
+      "args": [
+        "C:/Users/<you>/Documents/agentic-ai-in-practice-dawts-2026/stocks_server.py"
+      ],
       "env": {
         "MCP_TRANSPORT": "stdio"
       }
