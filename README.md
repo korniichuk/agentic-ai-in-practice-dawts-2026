@@ -407,9 +407,9 @@ In the Inspector you can:
 - Read the `stocks://watchlist` resource.
 - Render the `analyze_stock` prompt with `ticker="MSFT"`.
 
-*(screenshot: MCP Inspector tools tab)*
+![0006.png](img/0006.png "MCP Inspector tools tab")
 
-Stop with `Ctrl+C` when you are done.
+Stop with `Ctrl+C` in your Google Antigravity terminal when you are done.
 
 ### Option B. HTTP transport
 
