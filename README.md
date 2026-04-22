@@ -41,7 +41,7 @@ You will gain:
    $ python --version
    ```
 4. A package manager. This workshop uses `pip`. If you prefer [`uv`](https://docs.astral.sh/uv/), the equivalent commands are shown inline.
-5. A personal Google account for signing in to Antigravity.
+5. A personal Google account for signing in to [Google Antigravity](https://antigravity.google/).
 
 ## Part 1. What is MCP?
 
