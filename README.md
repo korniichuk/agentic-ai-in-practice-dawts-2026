@@ -73,14 +73,15 @@ flowchart LR
 
 ### Install Antigravity
 
-Download and install Google Antigravity from <https://antigravity.google/download>. Launch the app and sign in with your personal Google account.
+Download and install Google Antigravity from <https://antigravity.google/download>.
 
 For Windows operating system, you can check your system type (`x64` vs `ARM64`) in the `Settings > System > About`:
 
 ![0001.png](img/0001.png "Settings > System > About > System type")
 
+Launch the Google Antigravity desktop application and sign in with your personal Google account (e.g., `name.surname@gmail.com`).
 
-*(screenshot: Antigravity welcome screen)*
+![0002.png](img/0002.png "Antigravity welcome screen")
 
 ### Quick tour
 
